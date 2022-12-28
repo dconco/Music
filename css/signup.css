@@ -1,0 +1,693 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* start editing from here */
+
+.txt-rt {
+    text-align: right;
+}
+
+
+/* text align right */
+
+.txt-lt {
+    text-align: left;
+}
+
+
+/* text align left */
+
+.txt-center {
+    text-align: center;
+    /*-- musichome --*/
+}
+
+
+/* text align center */
+
+.float-rt {
+    float: right;
+}
+
+
+/* float right */
+
+.float-lt {
+    float: left;
+}
+
+
+/* float left */
+
+.clear {
+    clear: both;
+}
+
+
+/* clear float */
+
+.pos-relative {
+    position: relative;
+}
+
+
+/* Position Relative */
+
+.pos-absolute {
+    position: absolute;
+}
+
+
+/* Position Absolute */
+
+.vertical-base {
+    vertical-align: baseline;
+}
+
+
+/* vertical align baseline */
+
+.vertical-top {
+    vertical-align: top;
+}
+
+
+/* vertical align top */
+
+nav.vertical ul li {
+    display: block;
+}
+
+
+/* vertical menu */
+
+nav.horizontal ul li {
+    display: inline-block;
+}
+
+
+/* horizontal menu */
+
+img {
+    max-width: 100%;
+}
+
+
+/*--- end reset code ---*/
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(../img/bg.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -ms-background-size: 100% 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+h1.musichome {
+    text-align: center;
+    font-size: 3.5em;
+    color: #fff;
+    margin: 5px 0 0 0;
+    padding: 0;
+    letter-spacing: 3px;
+    font-family: three;
+}
+
+.content-mh {
+    width: 70%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.content-mh .content1-agile {
+    width: 54%;
+    float: left;
+}
+
+.content-mh .content2-agile {
+    width: 46%;
+    float: left;
+}
+
+.info-w3l {
+    padding: 30px 40px;
+}
+
+h2.wthree {
+    font-size: 25px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.form_musichome span {
+    width: 22%;
+    float: left;
+    padding: 12px 10px;
+    display: inline-block;
+    color: #fff;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.agile_form input[type=text],
+.agile_form input[type=email],
+.agile_form input[type=number],
+.agile_form input[type=password] {
+    padding: 0.8em 1em;
+    color: #fff;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgb(165, 165, 165);
+    -webkit-appearance: none;
+    width: 87%;
+    font-family: 'Lato', sans-serif;
+}
+
+option {
+    background: black;
+}
+
+input.email {
+    float: right;
+}
+
+input.username,
+.checkin,
+.checkout {
+    float: left;
+}
+
+.section_class_agileits select,
+.country select {
+    border: none;
+    outline: none;
+    font-size: 1em;
+    background: rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgb(165, 165, 165);
+    padding: 0.8em 1em;
+    color: #fff!important;
+    -webkit-appearance: none;
+    width: 96%;
+    font-family: 'Lato', sans-serif;
+}
+
+.section_class_agileits {
+    float: left;
+    width: 48%;
+    margin-top: 1em;
+}
+
+.section_class_agileits.s2-mh,
+.agileits-left.s2-mh {
+    margin-left: 1em;
+}
+
+.section_class_agileits.s2-mh {
+    margin-left: 1em;
+}
+
+.country select {
+    width: 100%;
+    background: #c075da;
+}
+
+.agileits-left {
+    margin: 1em 0 0.2em;
+    width: 48.4%;
+    float: left;
+}
+
+.form_musichome {
+    padding: 2em 3em;
+}
+
+.submit input[type=submit] {
+    color: #fff;
+    padding: 0.8em;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background: #640712;
+    outline: none;
+    margin: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+    width: 34%;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.submit input[type=submit]:hover {
+    background: #fff;
+    color: #000;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff !important;
+}
+
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff !important;
+}
+
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff !important;
+}
+
+input:-ms-input-placeholder {
+    color: #fff !important;
+}
+
+
+/* //form */
+
+.content-mh .content2-agile {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    bottom: 0;
+    margin-bottom: 0;
+    background: url(../img/2.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 640px;
+}
+
+
+/*-- responsive design --*/
+
+
+/* -- Responsive code -- */
+
+@media screen and (max-width: 1440px) {
+    .content-mh {
+        width: 79%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .content-mh .content2-agile {
+        width: 42%;
+    }
+    .content-mh .content1-agile {
+        width: 57%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .form_musichome {
+        padding: 2em 2em;
+    }
+    .content-mh .content1-agile {
+        width: 68%;
+    }
+    .content-mh .content2-agile {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .agileits-left.check h2 {
+        min-width: 94.5%;
+    }
+    .section_class_agileits select {
+        width: 97.3%;
+    }
+    .agileits-left {
+        width: 100%;
+    }
+    .agile_form textarea {
+        width: 95%;
+    }
+    .section_class_agileits.s2-mh,
+    .agileits-left.s2-mh {
+        margin-left: 0;
+    }
+    .section_class_agileits {
+        width: 44.5%;
+    }
+    .section_class_agileits {
+        width: 100%;
+    }
+    .agile_form input[type=text],
+    .agile_form input[type=email],
+    .agile_form input[type=number],
+    .agile_form input[type=password] {
+        width: 92%;
+    }
+    .content-mh .content1-agile {
+        width: 56%;
+    }
+    .content-mh .content2-agile {
+        width: 44%;
+    }
+    .agile_form textarea {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .agile_form input[type=text],
+    .agile_form input[type=email],
+    .agile_form input[type=number],
+    .agile_form input[type=password] {
+        width: 91%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    h1.musichome {
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .agile_form textarea {
+        width: 93%;
+    }
+    .agile_form input[type=text],
+    .agile_form input[type=email],
+    .agile_form input[type=number],
+    .agile_form input[type=password] {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content-mh {
+        width: 86%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-mh {
+        width: 89%;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .content-mh .content2-agile,
+    .content-mh .content1-agile {
+        width: 100%;
+    }
+    .content-mh {
+        width: 78%;
+    }
+    .agile_form input[type=text],
+    .agile_form input[type=email],
+    .agile_form input[type=number],
+    .agile_form input[type=password] {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .content-mh .content2-agile {
+        min-height: 555px;
+    }
+    h1.musichome {
+        font-size: 2.7em;
+    }
+    .agile_form input[type=text],
+    .agile_form input[type=email],
+    .agile_form input[type=number],
+    .agile_form input[type=password] {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 568px) {
+    .agile_form input[type=text],
+    .agile_form input[type=email],
+    .agile_form input[type=number],
+    .agile_form input[type=password] {
+        width: 91%;
+    }
+    h1.musichome {
+        font-size: 2.5em;
+    }
+    .content-mh .content2-agile {
+        min-height: 424px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1.musichome {
+        font-size: 2.3em;
+    }
+    .content-mh {
+        width: 85%;
+    }
+    .agile_form input[type=text],
+    .agile_form input[type=email],
+    .agile_form input[type=number],
+    .agile_form input[type=password] {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    h1.musichome {
+        font-size: 2.1em;
+    }
+    .agile_form input[type=text],
+    .agile_form input[type=email],
+    .agile_form input[type=number],
+    .agile_form input[type=password] {
+        width: 88%;
+    }
+    .content-mh {
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .agile_form input[type=text],
+    .agile_form input[type=email],
+    .agile_form input[type=number],
+    .agile_form input[type=password] {
+        width: 87%;
+    }
+    h1.musichome {
+        font-size: 2em;
+    }
+    .content-mh .content2-agile {
+        min-height: 324px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1.musichome {
+        font-size: 1.9em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1.musichome {
+        font-size: 1.6em;
+    }
+    .content-mh {
+        width: 95%;
+    }
+    .form_musichome {
+        padding: 2em 1.5em;
+    }
+}
+
+.hr {
+    width: 96.4%;
+    float: left;
+    margin: 3em 0;
+}
+
+.agileits-left.check h2 {
+    color: #fff;
+    font-size: 1em;
+    display: flex;
+    width: 91%;
+    background: #640712;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, rgb(142, 126, 128), #640712);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, rgb(142, 126, 128), #640712);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, rgb(142, 126, 128), #640712);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, rgb(142, 126, 128), #640712);
+    /* Standard syntax (must be last) */
+    padding: 0.5em;
+    margin: -20px 0;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.agileits-left.check dl {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    line-height: 1.2;
+}
+
+.checkbox-container {
+    margin: 30px 0 30px;
+    display: flex;
+    top: 10px;
+    position: relative;
+}
+
+#checked {
+    top: -3px;
+    position: absolute;
+}
+
+.checkbox-container label {
+    position: relative;
+    left: 20px;
+}
+
+.show,
+.hide {
+    font-size: large;
+    font-weight: 100;
+    color: white;
+    display: flex;
+    margin-left: -25px;
+    margin-top: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.create,
+.later {
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    padding: 8px 0 8px 0;
+    border-radius: 5px;
+    border: 3px solid white;
+    font-family: sans-Serif;
+    cursor: pointer;
+}
+
+.mi {
+    max-width: 7.5pc;
+    display: flex;
+    top: -20px;
+    margin: auto;
+    position: relative;
+    border: 5px solid #ffffff00;
+}
+
+.later {
+    width: 97%;
+    background-color: #525252;
+}
+
+.later:hover {
+    background-color: #2c2c2c;
+}
+
+.create {
+    width: 200%;
+    margin: 20px 0 0px 0;
+    background-color: green;
+}
+
+.create:hover {
+    background-color: rgb(0, 70, 0);
+}
+
+@media (max-width: 1080px) {
+    .create {
+        max-width: 97%;
+    }
+    .later {
+        margin-top: -7px;
+    }
+    .mi {
+        display: none;
+    }
+}
+
+@media (min-width: 1084px) {
+    .mi {
+        width: 7.5pc;
+    }
+}
+
+@media (min-width: 1290px) {
+    .mi {
+        width: 7.5pc;
+    }
+}
+
+@media (min-width: 1149px) {
+    .mi {
+        max-width: 6.6pc;
+    }
+}
+
+@media (min-width: 1306px) {
+    .mi {
+        max-width: 7.5pc;
+    }
+}
+
+@media (min-width: 1281px) {
+    .mi {
+        max-width: 8.2pc;
+    }
+}
+
+@media (max-width: 1305px) {
+    .mi {
+        width: 20pc;
+    }
+}
+
+
+/* -- //Responsive code -- */

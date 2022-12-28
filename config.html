@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="p-4">
+        <form id="myform" action="javascript:v­oid(0)">
+            <div>
+                <label for="myform_phone">P­hone: </label>
+                <input type="tel" id="myform_phone" name="phone" pattern="[0-9]{3}-[0­-9]{3}-[0-9]{4}" required/>
+            </div>
+
+            <div class="mt-2">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script type="text/javascript">
+        var phone_input = document.getElementById("myform_phone");
+        phone_input.addEventListener('input', () => {
+            phone_input.setCustomValidity(' ');
+            phone_input.checkValidity();
+        });
+
+        phone_input.addEventListener('invalid', () => {
+            if (phone_input.value === '') {
+                phone_input.setCustomValidity('Enter phone Number!');
+            } else {
+                phone_input.setCustomValidity('Enter phone number in this format: 123-456-7890')
+            }
+        });
+    </script>
+</body>
+
+</html>

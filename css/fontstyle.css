@@ -1,0 +1,389 @@
+@font-face {
+    font-family: one;
+    src: url("Alumni_Sans/Alumni_Sans/AlumniSansInlineOne-Italic.ttf");
+}
+
+@font-face {
+    font-family: two;
+    src: url("Alumni_Sans/Alumni_Sans/AlumniSansInlineOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: three;
+    src: url("Alumni_Sans/Mouse/MouseMemoirs-Regular.ttf");
+}
+
+@font-face {
+    font-family: four;
+    src: url("Alumni_Sans/Oleo_Script/OleoScriptSwashCaps-Bold.ttf");
+}
+
+@font-face {
+    font-family: five;
+    src: url("Alumni_Sans/Oleo_Script/OleoScriptSwashCaps-Regular.ttf");
+}
+
+@font-face {
+    font-family: six;
+    src: url("Alumni_Sans/Roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: seven;
+    src: url("Alumni_Sans/Roboto/Roboto-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: eight;
+    src: url("Alumni_Sans/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: nine;
+    src: url("Alumni_Sans/Roboto/Roboto-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: ten;
+    src: url("Alumni_Sans/Roboto/Roboto-Italic.ttf");
+}
+
+@font-face {
+    font-family: eleven;
+    src: url("Alumni_Sans/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: twelve;
+    src: url("Alumni_Sans/Roboto/Roboto-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: thirteen;
+    src: url("Alumni_Sans/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: fourteen;
+    src: url("Alumni_Sans/Roboto/Roboto-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: fifteen;
+    src: url("Alumni_Sans/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: sixteen;
+    src: url("Alumni_Sans/Roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: seventeen;
+    src: url("Alumni_Sans/Roboto/Roboto-ThinItalic.ttf");
+}
+
+@font-face {
+    font-family: eighteen;
+    src: url("Alumni_Sans/Roboto_Mono/RobotoMono-Italic-VariableFont-wght.ttf");
+}
+
+@font-face {
+    font-family: nineteen;
+    src: url("Alumni_Sans/Roboto_Mono/RobotoMono-VariableFont-wght.ttf");
+}
+
+@font-face {
+    font-family: twenty;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-Bold.ttf");
+}
+
+@font-face {
+    font-family: thirty;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: fourty;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: fifty;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-ExtraLightItalic.ttf");
+}
+
+@font-face {
+    font-family: sixty;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-Italic.ttf");
+}
+
+@font-face {
+    font-family: seventy;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-Light.ttf");
+}
+
+@font-face {
+    font-family: eighty;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: ninety;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-Medium.ttf");
+}
+
+@font-face {
+    font-family: hundred;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: twoh;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: threeh;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: fourh;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: fiveh;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-Thin.ttf");
+}
+
+@font-face {
+    font-family: sixh;
+    src: url("Alumni_Sans/Roboto_Mono/static/RobotoMono-ThinItalic.ttf");
+}
+
+@font-face {
+    font-family: sevenh;
+    src: url("Alumni_Sans/Roboto_Slap/RobotoSlab-VariableFont-wght.ttf");
+}
+
+@font-face {
+    font-family: eighth;
+    src: url("Alumni_Sans/Roboto_Slab/static/RobotoSlab-Black.ttf");
+}
+
+@font-face {
+    font-family: nineh;
+    src: url("Alumni_Sans/Roboto_Slab/static/RobotoSlab-Bold.ttf");
+}
+
+@font-face {
+    font-family: thousand;
+    src: url("Alumni_Sans/Roboto_Slab/static/RobotoSlab-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: twok;
+    src: url("Alumni_Sans/Roboto_Slab/static/RobotoSlab-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: threek;
+    src: url("Alumni_Sans/Roboto_Slab/static/RobotoSlab-Light.ttf");
+}
+
+@font-face {
+    font-family: fourk;
+    src: url("Alumni_Sans/Roboto_Slab/static/RobotoSlab-Medium.ttf");
+}
+
+@font-face {
+    font-family: fivek;
+    src: url("Alumni_Sans/Roboto_Slab/static/RobotoSlab-Regular.ttf");
+}
+
+@font-face {
+    font-family: sixk;
+    src: url("Alumni_Sans/Roboto_Slab/static/RobotoSlab-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: sevenk;
+    src: url("Alumni_Sans/Roboto_Slab/static/RobotoSlab-Thin.ttf");
+}
+
+@font-face {
+    font-family: eightk;
+    src: url("Alumni_Sans/Robotos/RobotoCondensed-Bold.ttf");
+}
+
+@font-face {
+    font-family: ninek;
+    src: url("Alumni_Sans/Robotos/RobotoCondensed-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: milion;
+    src: url("Alumni_Sans/Robotos/RobotoCondensed-Italic.ttf");
+}
+
+@font-face {
+    font-family: twom;
+    src: url("Alumni_Sans/Robotos/RobotoCondensed-Light.ttf");
+}
+
+@font-face {
+    font-family: threem;
+    src: url("Alumni_Sans/Robotos/RobotoCondensed-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: fourm;
+    src: url("Alumni_Sans/Robotos/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+    font-family: fivem;
+    src: url("Alumni_Sans/Ubuntu/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: sixm;
+    src: url("Alumni_Sans/Ubuntu/Ubuntu-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: sevenm;
+    src: url("Alumni_Sans/Ubuntu/Ubuntu-Italic.ttf");
+}
+
+@font-face {
+    font-family: eightm;
+    src: url("Alumni_Sans/Ubuntu/Ubuntu-Light.ttf");
+}
+
+@font-face {
+    font-family: ninem;
+    src: url("Alumni_Sans/Ubuntu/Ubuntu-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: tenm;
+    src: url("Alumni_Sans/Ubuntu/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+    font-family: now;
+    src: url("Alumni_Sans/Ubuntu/Ubuntu-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: dc;
+    src: url("Alumni_Sans/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: a;
+    src: url("webfonts/AlumniSansCollegiateOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: b;
+    src: url("webfonts/BarlowCondensed-Black.ttf");
+}
+
+@font-face {
+    font-family: c;
+    src: url("webfonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: d;
+    src: url("webfonts/DancingScript-Medium.ttf");
+}
+
+@font-face {
+    font-family: e;
+    src: url("webfonts/DynaPuff-VariableFont_wdth,wght.ttf");
+}
+
+@font-face {
+    font-family: f;
+    src: url("webfonts/FjallaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: g;
+    src: url("webfonts/Lobster-Regular.ttf");
+}
+
+@font-face {
+    font-family: h;
+    src: url("webfonts/Merriweather-Black.ttf");
+}
+
+@font-face {
+    font-family: i;
+    src: url("webfonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: j;
+    src: url("webfonts/PTSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: k;
+    src: url("webfonts/PTSansNarrow-Bold.ttf");
+}
+
+@font-face {
+    font-family: l;
+    src: url("webfonts/RubikDirt-Regular.ttf");
+}
+
+@font-face {
+    font-family: m;
+    src: url("webfonts/RubikDistressed-Regular.ttf");
+}
+
+@font-face {
+    font-family: n;
+    src: url("webfonts/RubikMaze-Regular.ttf");
+}
+
+@font-face {
+    font-family: o;
+    src: url("webfonts/Silkscreen-Bold.ttf");
+}
+
+@font-face {
+    font-family: p;
+    src: url("webfonts/Teko-Medium.ttf");
+}
+
+@font-face {
+    font-family: q;
+    src: url("webfonts/VarelaRound-Regular.ttf");
+}
+
+@font-face {
+    font-family: r;
+    src: url("webfonts/YanoneKaffeesatz-Bold.ttf");
+}
+
+@font-face {
+    font-family: arg;
+    src: url("webfonts/Courgette-Regular.ttf");
+}
+
+@font-face {
+    font-family: an;
+    src: url("webfonts/VT323-Regular.ttf");
+}
+
+@font-face {
+    font-family: up;
+    src: url("webfonts/NewRocker-Regular.ttf");
+}

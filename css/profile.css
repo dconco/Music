@@ -1,0 +1,504 @@
+body {
+    background-color: #94949465;
+}
+
+.profile-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.profile-max {
+    position: relative;
+    height: 100%;
+    width: 40pc;
+    max-width: 50pc;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-wrapper {
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #4d4d4d;
+    border-radius: 50%;
+    width: 12pc;
+    height: 12pc;
+}
+
+@media screen and (max-width: 367px) {
+    .profile-wrapper {
+        width: 10pc;
+        height: 10pc;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .profile-wrapper {
+        width: 8pc;
+        height: 8pc;
+    }
+}
+
+.profile-img {
+    display: flex;
+    object-fit: cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 25;
+    text-align: center;
+    border: 4px solid #1b1b1b;
+    border-radius: 50%;
+}
+
+.followers-following {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 13pc;
+}
+
+.follow {
+    background-color: blue;
+    margin-left: 5px;
+    color: #ffd891;
+    cursor: text;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    font-family: fourm;
+    font-weight: bolder;
+    font-size: 1pc;
+}
+
+.followers {
+    margin-right: 100px;
+}
+
+.following {
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 555px) {
+    .followers {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 403px) {
+    .follow {
+        margin-right: 0;
+        background: none;
+        color: black;
+        padding: 0;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .follow {
+        margin-right: 0;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .followers {
+        margin-right: -15px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .followers {
+        margin-right: -40px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .follow {
+        margin-top: -40px;
+    }
+}
+
+.user-name {
+    position: absolute;
+}
+
+.user-name p {
+    display: flex;
+    position: relative;
+}
+
+.user-name p:first-child {
+    font-family: h;
+    font-size: 1.4pc;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 18pc;
+    -webkit-text-stroke: 1.3px black;
+}
+
+.user-name p:last-child {
+    text-align: right;
+    float: right;
+    color: #3f3f3f;
+    margin-top: -14px;
+    font-size: 0.8pc;
+    font-family: thirteen;
+}
+
+@media screen and (max-width: 367px) {
+    .user-name p:first-child {
+        margin-top: 16pc;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .user-name p:first-child {
+        margin-top: 14pc;
+    }
+}
+
+.about-profile {
+    position: absolute;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    margin-top: 22pc;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-profile p {
+    color: #3f3f3f;
+    font: 0.7pc thirteen;
+}
+
+@media screen and (max-width: 367px) {
+    .about-profile {
+        margin-top: 21pc;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .about-profile {
+        margin-top: 20pc;
+    }
+}
+
+.edit-container {
+    position: absolute;
+    margin-top: 30pc;
+    left: 20px;
+    width: 100%;
+}
+
+.edit-container button {
+    cursor: pointer;
+    font: 1.3pc three;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+
+.edit-container .btn {
+    width: 80%;
+    position: relative;
+    margin-right: 8px;
+}
+
+.edit-container .btn {
+    background-color: green;
+    color: wheat;
+}
+
+.edit-container .btn:hover {
+    background-color: #004900;
+}
+
+.edit-container .btn:active {
+    background-color: #ffbf48;
+    color: black;
+}
+
+.edit-container button:nth-of-type(1) {
+    display: none;
+}
+
+.edit-container button:nth-of-type(3) {
+    background-color: #868686;
+}
+
+.edit-container button:nth-of-type(3):hover {
+    background-color: #414141;
+    color: wheat;
+}
+
+@media screen and (max-width: 467px) {
+    .edit-container {
+        margin-top: 31.5pc;
+    }
+}
+
+@media screen and (max-width: 403px) {
+    .edit-container button {
+        padding: 5px 10px 5px 10px;
+    }
+    .edit-container .btn {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    .edit-container {
+        margin-top: 32.5pc;
+    }
+}
+
+@media screen and (max-width: 259px) {
+    .edit-container {
+        margin-top: 33.5pc;
+    }
+    .edit-container .btn {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 244px) {
+    .edit-container {
+        margin-top: 35pc;
+    }
+}
+
+@media screen and (max-width: 224px) {
+    .edit-container {
+        margin-top: 37pc;
+    }
+}
+
+.menu-container {
+    position: fixed;
+    width: 250px;
+    height: 150px;
+    z-index: 70;
+    bottom: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+}
+
+.menu-container h2 {
+    margin: 0;
+    font: 1.5pc p;
+    display: flex;
+    padding: 5px 0 0 0;
+    justify-content: center;
+}
+
+.menu-hr {
+    width: 90%;
+    padding: 0;
+    margin-top: 0;
+}
+
+.userlink-copy {
+    display: flex;
+}
+
+.userlink {
+    width: 76%;
+    height: 25px;
+    color: white;
+    display: flex;
+    padding-left: 7px;
+    align-items: center;
+    left: 5px;
+    top: 3px;
+    margin-right: 8px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    font: 0.8pc g;
+    border-radius: 4px 0 0 4px;
+    position: relative;
+    cursor: text;
+    background-color: #6b6b6b;
+}
+
+.userlink::-webkit-scrollbar {
+    height: 3px;
+}
+
+.copy-link {
+    top: 3px;
+    width: 15%;
+    height: 25px;
+    display: flex;
+    border-radius: 0 4px 4px 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background-color: #6b6b6b;
+}
+
+.copy-link:hover {
+    background-color: #525252;
+}
+
+.copy-link i {
+    color: white;
+    font-size: 0.8pc;
+}
+
+.report {
+    display: flex;
+    font: 1.2pc p;
+    padding: 2px 0 2px 0;
+    margin: 0 0 0 5px;
+    width: 95%;
+    top: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.report:hover {
+    background-color: #c0c0c0;
+    transition-duration: 300ms;
+}
+
+.report:active {
+    background-color: #a3a3a3;
+    transition-duration: 300ms;
+}
+
+.upload {
+    display: flex;
+    position: absolute;
+    background-color: #fff;
+    width: 89%;
+    left: 20px;
+    height: 35px;
+    top: 34pc;
+    cursor: pointer;
+    padding-left: 10px;
+    border-radius: 30px;
+    border: 2px solid #414141;
+}
+
+.upload:hover {
+    background-color: #414141;
+    transition-duration: 0.2s;
+}
+
+.upload p {
+    color: #000;
+    font: 1.2pc p;
+    padding: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 467px) {
+    .upload {
+        top: 35pc;
+    }
+}
+
+@media screen and (max-width: 403px) {
+    .upload {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    .upload {
+        top: 36pc;
+    }
+}
+
+@media screen and (max-width: 259px) {
+    .upload {
+        top: 37pc;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 244px) {
+    .upload {
+        top: 38pc;
+    }
+}
+
+@media screen and (max-width: 224px) {
+    .upload {
+        top: 40pc;
+    }
+}
+
+@media screen and (max-width: 202px) {
+    .upload {
+        top: 42pc;
+    }
+}
+
+#readMore {
+    color: blue;
+    cursor: pointer;
+}
+
+#readMore:hover {
+    color: blueviolet;
+}
+
+.read-more-div {
+    position: fixed;
+    width: 250px;
+    height: 300px;
+    z-index: 70;
+    top: 20%;
+    padding: 10px;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+}
+
+@media screen and (max-width: 326px) {
+    .read-more-div {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .read-more-div {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 220px) {
+    .read-more-div {
+        width: 130px;
+    }
+}
